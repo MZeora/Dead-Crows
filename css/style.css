@@ -1,0 +1,58 @@
+*,html{ margin:0; padding:0; color:white; }
+body{ margin:0; padding:0; background-color:#1D1D1D;}
+#toppanel{ background-color:black; border-bottom:1px solid white; height:120px; position:fixed; width:100%; top:0; z-index:99999;}
+#toppanel_table{ width:100%; }
+#jplayer_area{ float:left; }
+#sharebox{ float:right; }
+.shareicon{ width:25px; }
+#radiobox{ width:30%; text-align:center; display:table-cell }
+#container{ width: 700px; margin-left:auto; margin-right:auto; margin-bottom:32px}
+#topper{ margin-top:130px; text-align:center; margin-bottom:-5px;}
+#content { background-color:black; }
+#news{ width:500px; float:left; margin-left:10px; }
+.newsTitle{ font-size:x-large; font-weight:bold; text-decoration:underline; }
+#footer{ background-color:black; border-top:1px solid white; height:32px; position:fixed; width:100%; bottom:0; z-index:99999;}
+#footerleft{ float:left; margin-left:5px; }
+#footerright{ float:right; margin-right:5px; }
+.ccicons{ width:25px; margin-top:3px; }
+#myPlayer{z-index:-99999; border:1px solid pink;}
+.ui-accordion .ui-accordion-header {
+  cursor: pointer; 
+  position: relative; 
+  margin-top: 1px; 
+  zoom: 1; 
+}
+
+.ui-accordion .ui-accordion-li-fix {
+  display: inline; 
+}
+
+.ui-accordion .ui-accordion-header-active {
+  border-bottom: 0 !important; 
+}
+
+.ui-accordion .ui-accordion-header a {
+  display: block; 
+  /*font-size: 1em; padding: .5em .5em .5em 2.2em;*/ 
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+  position: absolute; 
+  left: .5em; 
+  top: 50%; 
+  margin-top: -8px; 
+}
+
+.ui-accordion .ui-accordion-content {
+  border-top: 0; 
+  /*margin-top: -2px;*/ 
+  position: relative; 
+  top: 1px; 
+  /*margin-bottom: 2px;*/ 
+  overflow: auto; 
+  display: none; 
+}
+
+.ui-accordion .ui-accordion-content-active {
+  display: block; 
+}
